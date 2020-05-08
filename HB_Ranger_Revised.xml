@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Homebrew: Revised Ranger</name>
-		<description>Over the past year, you’ve seen us try a number of new approaches to the ranger, all aimed at addressing the class’s high levels of player dissatisfaction and its ranking as D&amp;D’s weakest class by a significant margin.</description>
-		<author url="http://dnd.wizards.com/articles/features/unearthed-arcana-ranger-revised">Wizards of the Coast</author>
+		<name>Homebre: Revised Ranger</name>
+		<description>HOMEBREW ADAPTATION: Over the past year, you’ve seen us try a number of new approaches to the ranger, all aimed at addressing the class’s high levels of player dissatisfaction and its ranking as D&amp;D’s weakest class by a significant margin.</description>
+		<author url="http://google.es">Homebrew Guy</author>
 		<update version="0.1">
-			<file name="20160912.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/2016/20160912.xml" />
+			<file name="Ranger_Revised_x2.xml" url="https://raw.githubusercontent.com/Adrian2256/Ranger-Revised/master/Ranger_Revised_x2.xml" />
 		</update>
 	</info>
-	<element name="Homebrew: Revised Ranger" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20160912">
+	<element name="Unearthed Arcana: Revised Ranger" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20160912">
 		<description>
 			<p>Over the past year, you’ve seen us try a number of new approaches to the ranger, all aimed at addressing the class’s high levels of player dissatisfaction and its ranking as D&amp;D’s weakest class by a significant margin.</p>
 		</description>
 		<setters>
-			<set name="abbreviation">HB20200508</set>
-			<set name="author" abbreviation="HB">Homebrew</set>
+			<set name="abbreviation">UA20160912</set>
+			<set name="url">http://dnd.wizards.com/articles/features/unearthed-arcana-ranger-revised</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
 			<set name="playtest">true</set>
-			<set name="release">20200508</set>
+			<set name="release">20160912</set>
 		</setters>
 	</element>
     <element name="Revised Ranger" type="Class" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_CLASS_REVISED_RANGER">
@@ -478,7 +480,7 @@
             <stat name="foe slayer:damage" value="Wisdom Modifier" />
         </rules>
     </element>
-  <!-- Deep Stalker -->  //
+  <!-- Deep Stalker -->
     <element name="Deep Stalker Conclave" type="Archetype" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_RANGER_DEEP_STALKER">
         <supports>Ranger Conclave</supports>
         <description>
@@ -574,7 +576,7 @@
         </sheet>
         <rules />
     </element>
-  <!-- Hunter --> //
+  <!-- Hunter -->
     <element name="Hunter Conclave" type="Archetype" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_RANGER_HUNTER">
         <supports>Ranger Conclave</supports>
         <description>
@@ -793,7 +795,7 @@
         </sheet>
         <rules></rules>
     </element>
-  <!-- Beast --> //
+  <!-- Beast -->
     <element name="Beast Conclave" type="Archetype" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_RANGER_BEAST">
         <supports>Ranger Conclave</supports>
         <description>
