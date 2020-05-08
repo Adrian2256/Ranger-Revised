@@ -911,16 +911,6 @@
         <rules />
     </element>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	<element name="Monster Slayer" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_RANGER_MONSTER_SLAYER">
         <supports>Ranger Conclave</supports>
         <description>
@@ -1008,6 +998,13 @@
         </sheet>
     </element>
     <element name="Slayer's Counter" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_SLAYER_SLAYERS_COUNTER">
+        <description>
+            <p>At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer’s Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>If the target of your Slayer’s Prey forces you to make a saving throw, make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack’s normal effects.</description>
+        </sheet>
+    </element>
 	
 	<element name="Horizon Walker" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_HORIZON_WALKER">
         <supports>Ranger Conclave</supports>
@@ -1101,6 +1098,13 @@
         </sheet>
     </element>
     <element name="Spectral Defense" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_SPECTRAL_DEFENSE">
+        <description>
+            <p>At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack’s damage on this turn.</p>
+        </description>
+        <sheet>
+            <description>When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack’s damage on this turn.</description>
+        </sheet>
+    </element>
 	
 	<element name="Gloom Stalker" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_RANGER_GLOOM_STALKER">
         <supports>Ranger Conclave</supports>
@@ -1191,7 +1195,13 @@
         </sheet>
     </element>
     <element name="Shadowy Dodge" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_GLOOM_SHADOWY_DODGE">
-	</element>
+        <description>
+            <p>Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn’t have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.</p>
+        </description>
+        <sheet action="Reaction">
+            <description>When a creature makes an attack roll against you and doesn’t have advantage on the roll, impose disadvantage on it (before knowing the outcome of the attack roll).</description>
+        </sheet>
+    </element>
 	
     <element name="Swarmkeeper" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_SWARMKEEPER">
         <supports>Ranger Conclave</supports>
@@ -1524,5 +1534,11 @@
         </sheet>
     </element>
     <element name="Guardian Aura" type="Archetype Feature" source="Unearthed Arcana: Ranger &amp; Rogue" id="ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_GUARDIAN_AURA">
-	</element>
+        <description>
+            <p>Starting at 15th level, your guardian form emanates a magical aura that fortifies your injured allies. When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. This aura has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</p>
+        </description>
+        <sheet>
+            <description>When any ally starts their turn within 30 feet of your guardian form, that ally regains a number of hit points equal to half your ranger level. Has no effect on a creature that has half or more of its hit points, and it has no effect on undead and constructs.</description>
+        </sheet>
+    </element>   
 </elements>
