@@ -318,7 +318,7 @@
             <description></description>
         </sheet>
         <rules>
-            <select type="Archetype" name="Ranger Conclave" supports="Ranger Conclave, !Ranger Archetype" />
+            <select type="Archetype" name="Ranger Conclave" supports="Ranger Conclave" />
         </rules>
     </element>
     <element name="Primeval Awareness" type="Class Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS">
