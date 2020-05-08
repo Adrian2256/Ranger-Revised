@@ -15,6 +15,7 @@
 		<setters>
 			<set name="abbreviation">UHB20200508</set>
 			<set name="author" abbreviation="HB">Homebrew</set>
+			<set name="url">http://google.es</set>
 			<set name="official">false</set>
 			<set name="playtest">true</set>
 			<set name="release">20200508</set>
