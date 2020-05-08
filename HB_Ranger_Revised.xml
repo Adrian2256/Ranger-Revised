@@ -318,7 +318,7 @@
             <description></description>
         </sheet>
         <rules>
-            <select type="Archetype" name="Ranger Conclave" supports="Ranger Conclave, !Ranger Archetype" />
+            <select type="Archetype" name="Ranger Conclave" supports="Ranger Conclave, Ranger Archetype" />
         </rules>
     </element>
     <element name="Primeval Awareness" type="Class Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS">
@@ -1205,7 +1205,7 @@
     </element>
 	
     <element name="Swarmkeeper" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_SWARMKEEPER">
-        <supports>Ranger Conclave, Ranger Archetype</supports>
+        <supports>Ranger Archetype</supports>
         <description>
             <p>Feeling a deep connection to the world around them, some rangers reach out through their magical connection to nature and gather a host of fey spirits, which take the form of swarming beasts—be they buzzing insects, fluttering birds, slippery squids, or otherwise. The swarm becomes a potent force in battle, as well as helpful—if potentially disturbing—company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.</p>
             <div element="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_SWARMKEEPER_SWARMKEEPER_MAGIC" />
