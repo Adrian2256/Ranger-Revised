@@ -1191,6 +1191,7 @@
         </sheet>
     </element>
     <element name="Shadowy Dodge" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_RANGER_GLOOM_SHADOWY_DODGE">
+	</element>
 	
     <element name="Swarmkeeper" type="Archetype" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_SWARMKEEPER">
         <supports>Ranger Conclave</supports>
