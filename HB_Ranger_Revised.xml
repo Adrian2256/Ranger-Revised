@@ -916,7 +916,7 @@
 		<supports>Ranger Conclave</supports>
 	</append>
 	
-	<append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC">
+	<append id="ID_WOTC_XGTE_ARCHETYPE_HORIZON_WALKER">
 		<supports>Ranger Conclave</supports>
 	</append>
 	
