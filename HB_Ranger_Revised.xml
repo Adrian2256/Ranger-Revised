@@ -912,11 +912,11 @@
         <rules />
     </element>
 	
-	<append id="ID_WOTC_XGTE_ARCHETYPE_RANGER_MONSTER_SLAYER"<
+	<append id="ID_WOTC_XGTE_ARCHETYPE_RANGER_MONSTER_SLAYER">
 		<supports>Ranger Conclaver</supports>
 	</append>
 	
-	<append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC"<
+	<append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC">
 		<supports>Ranger Conclaver</supports>
 	</append>
 	
