@@ -913,11 +913,11 @@
     </element>
 	
 	<append id="ID_WOTC_XGTE_ARCHETYPE_RANGER_MONSTER_SLAYER">
-		<supports>Ranger Conclaver</supports>
+		<supports>Ranger Conclave</supports>
 	</append>
 	
 	<append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HORIZON_WALKER_MAGIC">
-		<supports>Ranger Conclaver</supports>
+		<supports>Ranger Conclave</supports>
 	</append>
 	
 	<append id="ID_WOTC_XGTE_ARCHETYPE_RANGER_GLOOM_STALKER">
