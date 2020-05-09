@@ -110,6 +110,7 @@
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_RANGER_CONCLAVE" level="3"/>
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_PRIMEVAL_AWARENESS" level="3"/>
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_ASI" level="4"/>
+			<grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_EXTRA_ATTACK" level="5"/>
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_GREATER_FAVORED_ENEMY" level="6"/>
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_FLEET_OF_FOOT" level="8"/>
             <grant type="Class Feature" name="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_HIDE_IN_PLAIN_SIGHT" level="10"/>
@@ -352,6 +353,15 @@
             <select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
         </rules>
     </element>
+	<element name="Extra Attack" type="Class Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_EXTRA_ATTACK">
+        <description>
+            <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+        </description>
+        <sheet>
+            <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+        </sheet>
+        <rules />
+    </element>
     <element name="Greater Favored Enemy" type="Class Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_CLASSFEATURE_RANGER_GREATER_FAVORED_ENEMY">
         <description>
             <p>At 6th level, you are ready to hunt even deadlier game. Choose a type of greater favored enemy: abberations, celestials, constructs, dragons, elementals, fiends, or giants. You gain all the benefits against this chosen enemy that you normally gain against your favored enemy, including additional language. Your bonus to damage rolls against all your favored enemies increases to +4.</p>
@@ -498,7 +508,6 @@
         <rules>
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_UNDERDARK_SCOUT" level="3" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_DEEP_STALKER_MAGIC" level="3" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_EXTRA_ATTACK" level="5" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_IRON_MIND" level="7" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_STALKERS_FURY" level="11" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_STALKERS_DODGE" level="15" />
@@ -537,15 +546,6 @@
         </description>
         <sheet>
             <description>At the start of your first combat turn, your walking speed increases by 10ft until the end of that turn. If you attack that turn, make one additional weapon attack. Creatures that rely on darkvision don't get benefit trying to detect you in dim or dark conditions and if you trying to hide.</description>
-        </sheet>
-        <rules />
-    </element>
-    <element name="Extra Attack" type="Archetype Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_DEEP_STALKER_EXTRA_ATTACK">
-        <description>
-            <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
-        </description>
-        <sheet>
-            <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
         </sheet>
         <rules />
     </element>
@@ -592,7 +592,6 @@
         </sheet>
         <rules>
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_HUNTERS_PREY" level="3" />
-            <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_EXTRA_ATTACK" level="5" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS" level="7" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_MULTIATTACK" level="11" />
             <grant type="Archetype Feature" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_SUPERIOR_HUNTERS_DEFENSE" level="15" />
@@ -647,15 +646,6 @@
             <description>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</description>
         </sheet>
         <rules></rules>
-    </element>
-    <element name="Extra Attack" type="Archetype Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_EXTRA_ATTACK">
-        <description>
-            <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
-        </description>
-        <sheet>
-            <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
-        </sheet>
-        <rules />
     </element>
     <element name="Defensive Tactics" type="Archetype Feature" source="Unearthed Arcana: Revised Ranger" id="ID_WOTC_UA20160912_ARCHETYPE_FEATURE_RANGER_HUNTER_DEFENSIVE_TACTICS">
         <description>
